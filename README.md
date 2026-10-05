@@ -1,75 +1,140 @@
-# React + TypeScript + Vite
+# Laxmisagar Mulge — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website of **Laxmisagar Mulge**, a Computer Science student interested in full-stack development, AI, data science, and building real-world products.
 
-Currently, two official plugins are available:
+## 🌐 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**[laxmisagar-portfolio.vercel.app](https://laxmisagar-portfolio.vercel.app/)**
 
-## React Compiler
+## 👨‍💻 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I'm Laxmisagar Mulge, a Computer Science student who enjoys learning by building.
 
-## Expanding the ESLint configuration
+I work across:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Full-stack web development
+- Artificial Intelligence
+- Data Science
+- UI/UX
+- Hackathon projects
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I enjoy experimenting with new technologies and turning ideas into practical projects.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🚀 Featured Projects
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### AnimGen AI
 
-```
+An AI-powered educational animation platform that transforms plain-text explanations into structured animated visual content.
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Users enter a concept, Gemini processes the explanation, scenes are generated, and the resulting animation is displayed.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**My contribution:** API integration and backend development as part of a 4-person team.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Technologies:**
 
-```
+- HTML
+- TypeScript
+- Node.js
+- Google Gemini API
+- Gemini Veo
+
+**Repository:**  
+https://github.com/LaxmisagarMulge/AnimGen-AI
+
+---
+
+### DocuTrust
+
+An AI-powered document verification web application designed to extract information from uploaded documents and compare the extracted information with government records to identify authentic or potentially tampered documents.
+
+**My contribution:** Prompt engineering and AI workflow design.
+
+**Technologies:**
+
+- TypeScript
+- HTML
+- CSS
+- OCR
+- AI
+
+**Live Demo:**  
+https://docu-trust-eight.vercel.app/
+
+**Repository:**  
+https://github.com/LaxmisagarMulge/DocuTrust
+
+## 🛠️ Tech Stack
+
+### Development
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- React
+- Next.js
+
+### Backend & Data
+
+- Node.js
+- REST APIs
+- Supabase
+- SQL
+- PostgreSQL
+
+### AI & Data Science
+
+- Python
+- Data Analysis
+- Machine Learning
+- Artificial Intelligence
+- Generative AI
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Figma
+- Vercel
+
+## 🏆 Hackathons
+
+I've participated in **20+ hackathons**, using them as an opportunity to learn, collaborate, experiment, and build under real-world constraints.
+
+Some of the events I've worked on include:
+
+- **Yugaantar Devforge 2025** — Scalar School of Technology
+  - Project: AnimGen AI
+  - Role: API Integration & Backend Development
+  - Team of 4
+
+- **Prometeo'26 2026** — IIT Jodhpur
+  - Role: UI/UX Designer
+
+- **Smart India Hackathon 2026**
+  - Problem Statement 188
+  - AI-Based Fake Identity & Document Screening System
+  - Role: UI/UX Designer, Frontend Developer & Prompt Engineer
+
+## 📚 Currently Interested In
+
+- Full-stack development
+- Artificial Intelligence
+- Generative AI
+- Data Science
+- Product development
+- Open-source development
+- Hackathons
+
+## 🔗 Connect
+
+**GitHub:**  
+https://github.com/LaxmisagarMulge
+
+**LinkedIn:**  
+https://www.linkedin.com/in/laxmisagar-mulge
+
+## 📄 License
+
+This portfolio is a personal project.
